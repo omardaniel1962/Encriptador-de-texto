@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico"></link>
+    <link rel="stylesheet" href="./css/estilos.css"></link>
+    <title>ENCRIPTADOR</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <img src="./imagenes/logo.svg" alt="Logo ALURA" class="logo">
+    </header>
+
+    <!-- PRINCIPAL -->
+     <main>
+
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acento</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">ENCRIPTAR</button>
+                <button type="submit" class="btn-desencriptar">DESENCRIPTAR</button>
+
+            </div>
+        </section>
+
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./imagenes/muñeco.svg" alt="Imagen Muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingresa el texto que deseas encriptar</p>
+            </div>
+            <textarea tyupe="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">COPIAR</button>
+        </section>
+
+     </main>
+
+     <!-- PIE DE PAGINA -->
+    <footer>
+        <p class="copyright">&copy; Copyright 2024 - Encriptador de texto - Desarrollado por Omar Daniel</p>
+        <a href="#" rel="">
+            <img src="./imagenes/linkedin.svg" alt="Logo LinkedIn" class="linked">
+        </a>
+        
+        <a href="#" rel="">
+            <img src="./imagenes/github.svg" alt="Logo GitHub" class="git">
+        </a>
+    </footer>
+
+    <script src="./js/encriptador.js"></script>
+    
+</body>
+</html>
